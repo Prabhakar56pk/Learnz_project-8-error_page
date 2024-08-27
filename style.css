@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+}
+
+header {
+  height: 17vh;
+  font-family: "Inconsolata", monospace;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  font-size: 14px;
+  color: #333333;
+}
+main {
+  height: 73vh;
+}
+div {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Space Mono", monospace;
+}
+
+.image-data {
+  width: 38%;
+}
+
+img {
+  width: 60%;
+  float: right;
+  margin-right: 30px;
+}
+
+.text-data {
+  width: 58%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #282828;
+  padding-left: 22px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding-left: 22px;
+}
+
+footer {
+  height: 6vh;
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  font-family: "Space Mono", monospace;
+}
+.text-data a {
+  background-color: #333333;
+  color: rgb(219, 219, 219);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 12px;
+  margin-left: 22px;
+}
